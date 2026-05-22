@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Imager</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+  <nav>
+    <h1>The Imager</h1>
+    <div class="links">
+      <a href="#">Explore</a>
+      <a href="#">Create</a>
+      <a href="#">Gallery</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="tag">create your own digital showroom</div>
+
+    <h2>
+      display your world<br/>
+      <span>beautifully</span>
+    </h2>
+
+    <p>
+      build clean galleries, organize memories, and create a modern space for your photos.
+    </p>
+
+    <div class="buttons">
+      <button class="primary">Create Gallery</button>
+      <button class="secondary">Explore</button>
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <div class="header">
+      <div>
+        <h3>your showroom</h3>
+        <p>start building your gallery.</p>
+      </div>
+
+      <input id="upload" type="file" multiple hidden />
+      <label for="upload" class="upload-btn">upload images</label>
+    </div>
+
+    <div id="gallery" class="grid"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
